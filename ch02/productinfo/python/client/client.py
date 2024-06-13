@@ -14,4 +14,5 @@ def run():
     productInfo = stub.getProduct(product_info_pb2.ProductID(value = response.value))
     print("get product: response", productInfo)
 
-run()
+if __name__ == "__main__":
+    run()
